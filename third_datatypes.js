@@ -13,3 +13,6 @@ let u = undefined;
 // float
 // symbol = use for uniqeness
 // ECMA standard it is other topic
+ 
+console.log(typeof null);
+console.log(typeof name);
