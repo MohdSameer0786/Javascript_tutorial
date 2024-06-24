@@ -1,4 +1,4 @@
-let score = "33aa";
+let score = "33aa";// not a number
 
 let number_score = Number(score);
 
