@@ -15,4 +15,5 @@ let u = undefined;
 // ECMA standard it is other topic
  
 console.log(typeof null); // object
+console.log(typeof age); 
 console.log(typeof name); // string
