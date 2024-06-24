@@ -7,8 +7,8 @@ let second = first;
 
 second = "gour";
 
-console.log(first);
-console.log(second)
+//console.log(first);
+//console.log(second)
 
 // heap
 
@@ -22,3 +22,6 @@ let firstob ={
 let secondOb = firstob;
 
 secondOb.gmail = "gour@gmail.com" ;
+
+console.log(firstob);
+console.log(secondOb);
