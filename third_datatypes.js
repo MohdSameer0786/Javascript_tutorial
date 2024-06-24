@@ -14,5 +14,5 @@ let u = undefined;
 // symbol = use for uniqeness
 // ECMA standard it is other topic
  
-console.log(typeof null);
-console.log(typeof name);
+console.log(typeof null); // object
+console.log(typeof name); // string
