@@ -1,6 +1,6 @@
 let score = "33aa";
 
-let number_score = String(score);
+let number_score = Number(score);
 
 console.log(typeof number_score);
 // note => we can conversion like mention above 
