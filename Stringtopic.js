@@ -11,3 +11,12 @@ let name3 = "44";
 let sum = name2+name3;
 
 console.log(sum);
+
+// output is 5544
+
+const gameName  = new  String("sameergour");
+//console.log(gameName[0]);
+//console.log(gameName.length)
+//console.log(gameName.charAt(4));
+console.log(gameName.toUpperCase)
+
