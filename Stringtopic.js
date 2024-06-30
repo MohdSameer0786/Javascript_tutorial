@@ -18,5 +18,7 @@ const gameName  = new  String("sameergour");
 //console.log(gameName[0]);
 //console.log(gameName.length)
 //console.log(gameName.charAt(4));
-console.log(gameName.toUpperCase());
+//console.log(gameName.toUpperCase());
+console.log(gameName.indexOf("e"));
+// and more other functions we can applied 
 
