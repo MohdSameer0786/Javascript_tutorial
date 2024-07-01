@@ -14,10 +14,19 @@ const newScore = new Number(500);
 
 //console.log(newScore.toFixed(2));
 
-const otherScore = 123.99;
+//const otherScore = 123.99;
 
 //console.log(otherScore.toPrecision(3));
 // output is : 124
 //console.log(otherScore.toPrecision(4));
 // output is : 124.0
 
+
+const anotherOne = 1000000;
+
+console.log(anotherOne.toLocaleString('en-In'));
+
+// Output will bew 10,00,000
+
+
+// -------------------Math Topic-----------------------------------------------------
