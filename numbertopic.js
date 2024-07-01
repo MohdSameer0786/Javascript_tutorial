@@ -20,4 +20,4 @@ const otherScore = 123.99;
 // output is : 124
 //console.log(otherScore.toPrecision(4));
 // output is : 124.0
-console.log(otherScore.toPrecision(1));
+
