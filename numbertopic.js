@@ -37,5 +37,12 @@ const anotherOne = 1000000;
 // console.log(Math.round(4.4));
 // Output 4 if the value is less then 4.5  like 4.4 || Output 5 if the value is greater then 4.5 like 4.6
 
-console.log(Math.random());
+//console.log(Math.random());
 // the output will come between o and 1
+
+//console.log(Math.floor((Math.random()*10)+1));
+
+const max = 20;
+const min = 10;
+
+console.log(Math.floor(Math.random()*(max-min)+min));
