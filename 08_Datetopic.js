@@ -14,3 +14,8 @@
 let newDate = new Date();
 console.log(newDate);
 //console.log(newDate.getMonth());
+
+// newDate.toLocaleString('Default' ,{
+//     weekday:"short",
+//     timeZone:
+// })
