@@ -12,7 +12,13 @@ const indian_heroes = [",shaktiman", "Yukudu", "Balveer"]
 //console.log(All_heroes[5]);
 
 // we can use this method to add one array to the another array 
-const new_heroes = [...marvel_heroes, ...Dc_heroes, ...indian_heroes];
+//const new_heroes = [...marvel_heroes, ...Dc_heroes, ...indian_heroes];
 
-console.log(new_heroes);
+//console.log(new_heroes);
+
+const another_array = [1,3,4,5,6,[4,5,6,[7,8,9]]];
+
+const another_real_array = another_array.flat(Infinity);
+
+console.log(another_real_array)
 
