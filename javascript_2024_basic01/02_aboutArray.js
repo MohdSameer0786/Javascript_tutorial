@@ -16,9 +16,30 @@ const indian_heroes = [",shaktiman", "Yukudu", "Balveer"]
 
 //console.log(new_heroes);
 
-const another_array = [1,3,4,5,6,[4,5,6,[7,8,9]]];
+// To make a single array if array in array 
+//const another_array = [1,3,4,5,6,[4,5,6,[7,8,9]]];
 
-const another_real_array = another_array.flat(Infinity);
+//const another_real_array = another_array.flat(Infinity);
 
-console.log(another_real_array)
+//console.log(another_real_array)
+
+// for check array or not
+//console.log(Array.isArray(["sameer",2,"sam",true]));
+
+// To make a sentence or anything in the form an array
+//const s = "sameer";
+//console.log(Array.from(s));
+
+// it gives empty array because it can't access directly , it works on key value 
+//console.log(Array.from({name: "sameer"}));// intresting
+
+
+// we can create array with element like this given below
+
+// let score1 = 100;
+// let score2 = 200;
+// let score3 = 300;
+
+
+// console.log(Array.of(score1, score2, score3));
 
