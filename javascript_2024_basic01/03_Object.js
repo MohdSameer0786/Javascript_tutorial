@@ -5,6 +5,7 @@ let  mySym = Symbol("kye1");
 let MYJS = {
     name: "sameer",
     Fnmae: "saeed Ahmad",
+    // RIGHT SYNTAX OF DECLARING SYMBOL
     [mySym]: "myKey1",
     rollNO: 22,
     "age": "twenty",
