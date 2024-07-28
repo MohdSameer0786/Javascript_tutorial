@@ -4,7 +4,7 @@ let  mySym = Symbol("kye1");
 
 let MYJS = {
     name: "sameer",
-    Fnmae: "saeed Ahmad",
+    Fname: "saeed Ahmad",
     // RIGHT SYNTAX OF DECLARING SYMBOL
     [mySym]: "myKey1",
     rollNO: 22,
@@ -12,9 +12,10 @@ let MYJS = {
     play: ["cricket"]
 }
 
-console.log(MYJS[mySym]);
-// first way to access the value
+// FOR SYMBOL
+//console.log(MYJS[mySym]);
 
+// first way to access the value
 //console.log(MYJS.rollNO);
 // Output: 22
 
@@ -24,3 +25,29 @@ console.log(MYJS[mySym]);
 //console.log(MYJS["play"])
 //console.log(MYJS["age"]);
 //console.log(MYJS["Fnmae"])
+
+MYJS.name = "Gour";
+
+//console.log(MYJS.name);
+
+// if we use freeze method than we cannot change in the Object 
+//Object.freeze(MYJS);
+//MYJS.Fname = "Saeed"
+//console.log(MYJS)
+
+MYJS.Greetings = function(){
+    console.log("hello JS user");
+}
+
+console.log(MYJS.Greetings());
+
+
+
+MYJS.GreetingsTwo = function(){
+    console.log(`hello JS user ${this.name}`);
+}
+
+console.log(MYJS.Greetings());
+
+console.log(MYJS.GreetingsTwo());
+
