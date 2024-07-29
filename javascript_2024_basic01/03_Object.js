@@ -1,16 +1,16 @@
-let  mySym = Symbol("kye1");
+// let  mySym = Symbol("kye1");
 
 
 
-let MYJS = {
-    name: "sameer",
-    Fname: "saeed Ahmad",
-    // RIGHT SYNTAX OF DECLARING SYMBOL
-    [mySym]: "myKey1",
-    rollNO: 22,
-    "age": "twenty",
-    play: ["cricket"]
-}
+// let MYJS = {
+//     name: "sameer",
+//     Fname: "saeed Ahmad",
+//     // RIGHT SYNTAX OF DECLARING SYMBOL
+//     [mySym]: "myKey1",
+//     rollNO: 22,
+//     "age": "twenty",
+//     play: ["cricket"]
+// }
 
 // FOR SYMBOL
 //console.log(MYJS[mySym]);
@@ -58,10 +58,11 @@ let MYJS = {
 
 // console.log(MYJS.myGreetingThree());
 
-
+// Another way of Declaring Object
 const obj = new Object();
 obj.name = "Sameer";
 obj.age = 22;
 
 console.log(obj.name);
+console.log(obj.age);
 
