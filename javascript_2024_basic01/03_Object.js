@@ -35,19 +35,33 @@ let MYJS = {
 //MYJS.Fname = "Saeed"
 //console.log(MYJS)
 
-MYJS.Greetings = function(){
-    console.log("hello JS user");
-}
+// MYJS.Greetings = function(){
+//     console.log("hello JS user");
+// }
 
-console.log(MYJS.Greetings());
+// console.log(MYJS.Greetings());
 
 
 
-MYJS.GreetingsTwo = function(){
-    console.log(`hello JS user ${this.name}`);
-}
+// MYJS.GreetingsTwo = function(){
+//     console.log(`hello JS user ${this.name}`);
+// }
 
-console.log(MYJS.Greetings());
+// console.log(MYJS.Greetings());
 
-console.log(MYJS.GreetingsTwo());
+// console.log(MYJS.GreetingsTwo());
+
+// MYJS.myGreetingThree = function(){
+
+//     console.log(`my user is ${this.Fname}`);
+// }
+
+// console.log(MYJS.myGreetingThree());
+
+
+const obj = new Object();
+obj.name = "Sameer";
+obj.age = 22;
+
+console.log(obj.name);
 
