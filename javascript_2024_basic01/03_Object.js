@@ -26,7 +26,7 @@ let MYJS = {
 //console.log(MYJS["age"]);
 //console.log(MYJS["Fnmae"])
 
-MYJS.name = "Gour";
+//MYJS.name = "Gour";
 
 //console.log(MYJS.name);
 
