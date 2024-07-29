@@ -63,6 +63,11 @@ const obj = new Object();
 obj.name = "Sameer";
 obj.age = 22;
 
-console.log(obj.name);
+// console.log(obj.name);
+// console.log(obj.age);
+
+
+obj.age = 34;  // Modifying the age property
+
 console.log(obj.age);
 
