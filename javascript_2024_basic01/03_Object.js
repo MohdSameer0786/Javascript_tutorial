@@ -1,3 +1,8 @@
+//Object Singleton
+//Object.Create
+
+// Object Literals given below
+
 // let  mySym = Symbol("kye1");
 
 
@@ -58,8 +63,11 @@
 
 // console.log(MYJS.myGreetingThree());
 
-// Another way of Declaring Object
+// Singleton Object given below
 const obj = new Object();
+
+// non singleton object given below
+  //const obj2 = {} // non singleton object
 obj.name = "Sameer";
 obj.age = 22;
 
@@ -68,6 +76,6 @@ obj.age = 22;
 
 
 obj.age = 34;  // Modifying the age property
-
 console.log(obj.age);
+
 
