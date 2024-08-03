@@ -2,9 +2,9 @@
 const myObj = new Object()// singleton object
 
 const tinderuser = {
-    greet(){
+    //greet(){
         //console.log("dhanywaad");
-    }
+   // }
 } // non-singleton object Or Literal Object
 
 tinderuser.id = "abc123";
@@ -43,8 +43,24 @@ const obj2 = {
 
 //const obj3 = {obj1, obj2};
 
-const obj3 = Object.assign({}, obj1, obj2);
-console.log(obj1);
-console.log(obj3);
+//const obj3 = Object.assign({}, obj1, obj2);
+const obj4 = {
+    5: "e",
+    6: "f"
+}
+//console.log(obj1);
 
-console.log(obj1 === obj3); 
+// Another method of adding objects
+
+//const obj3 = {...obj1, ...obj2, ...obj4}
+//console.log(obj3);
+
+//console.log(obj1 === obj3); 
+
+console.log(tinderuser);
+
+console.log(Object.keys(tinderuser));
+console.log(Object.values(tinderuser));
+console.log("");
+console.log(Object.entries(tinderuser))
+console.log(tinderuser.hasOwnProperty('gmail'))
